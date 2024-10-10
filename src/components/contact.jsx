@@ -141,7 +141,68 @@ export const Contact = () => {
             </div>
           </div>
           <div className="col-md-3 col-md-offset-1 contact-info">
-            {/* Contact info and social links remain unchanged */}
+            <div className="contact-item">
+              <h3>Contact Info</h3>
+              <p>
+                <span>
+                  <i className="fa fa-map-marker"></i> Address
+                </span>
+                20323 Moonlight Falls Ct Richmond, TX 77407
+              </p>
+            </div>
+            <div className="contact-item">
+              <p>
+                <span>
+                  <i className="fa fa-phone"></i> Phone
+                </span>{" "}
+                (281) 906 - 2122, (469) 558 - 1607
+              </p>
+            </div>
+            <div className="contact-item">
+              <a href="mailto:7dcleaningllc@gmail.com">
+                <p>
+                  <span>
+                    <i className="fa fa-envelope-o"></i> Email
+                  </span>{" "}
+                  <a href="mailto:7dcleaningllc@gmail.com">
+                    <span style={{ color: "inherit !important" }}>
+                      7dcleaningllc@gmail.com
+                    </span>
+                  </a>
+                </p>
+              </a>
+            </div>
+          </div>
+          <div className="col-md-12">
+            <div className="row">
+              <div className="social">
+                <ul>
+                  <li>
+                    <a
+                      href={
+                        "https://www.instagram.com/7dcleaning?igsh=MXY1bnFuYjlrM2l5"
+                      }
+                    >
+                      <i className="fa fa-facebook"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href={
+                        "https://www.instagram.com/7dcleaning/profilecard/?igsh=OTQ1MDNxYmZjYzBq"
+                      }
+                    >
+                      <i className="fa fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href={"https://maps.app.goo.gl/ex7zCAiamxyvDSrLA"}>
+                      <i className="fa fa-map"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
